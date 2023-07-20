@@ -1,0 +1,43 @@
+/* Atlantis Pro Bootstrap Dashboard */
+.login-panel {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    float: right;
+    background: #f2f3f8;
+}
+
+.login-panel .container {
+    padding: 30px !important;
+    min-height: calc(100vh - 123px);
+    margin-top: 61px;
+    margin-bottom: -22px;
+    overflow: hidden;
+    width: 100%;
+    max-width: unset;
+}
+
+.main-panel .container {
+    margin-bottom: -10px;
+}
+
+.page-not-found {
+    background-image: url("../img/bg-404.jpeg");
+    background-size: cover;
+    background-position: center;
+    image-rendering: pixelated;
+}
+
+
+.control-group label {
+    color: rgb(128, 128, 131) !important;
+}
+.control-group .form-control {
+    border-color: rgb(128, 128, 131) !important;
+    color: rgb(128, 128, 131) !important;
+}
+.control-group .input-group-text {
+    border-color: rgb(128, 128, 131) !important;
+    background: rgb(128, 128, 131) !important;
+    color: #ffffff !important;
+}
